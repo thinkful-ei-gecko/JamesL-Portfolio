@@ -1,38 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>James Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <header>
+        <div class="menu-toggle">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav role="navigation" class="top-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-list-element">Home</a></li>
+                <li><a href="#about" class="nav-list-element">About Me</a></li>
+                <li><a href="#skillz" class="nav-list-element">Skills</a></li>
+                <li><a href="#projects" class="nav-list-element">Projects</a></li>
+                <li><a href="#contact" class="nav-list-element">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="name-header">
+            <h1>James W Lee</h1>
+            <h4>Full Stack Web Developer</h4>
+        </div>
+    </header>
     <main role="main">
-        <header role="banner">
-            <h1>Hero</h1>
-        </header>
 
-        <section>
-            Section 1
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img">
+                    <img src="images/profile.jpeg">
+                </div>
+                <div class="about-details">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h5>Myself</h5>
+                    </div>
+                    <p class="intro">
+                        There are only a few things in life that can replicate the emotion invoked by having a successful set of code work properly, and I chase those moments.
+                    </p>
+                    <p>
+                        Hi! My name is James Lee and I am a passionate software developer.  Throughout my experiences in life, whether personal or professional, I've learned the most important aspect about acheiving any goal comes from the appreciation of the process that manifests ideas into life.  Coding has definitely highlighted this aspect and I fell in love with the process instantaneously.  Being a part of a select society that have the ability to create, design, and resolve issues is what drove me to choosing this career path.  Come along with me and let's embark on this exciting journey together...
+                    </p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="https://www.facebook.com/xleex24" class="icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/j1lee27/" class="icon-link">
+                                        <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-            Section 2
+        <section class="skillset" id="skillz">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Skills</h1>
+                </div>
+                <div class="my-skills">
+                    <div class="skills">
+                        <p>..</p>
+                        <h1>Web Design</h1>
+                        <p>Creating innovative and modern design to web pages and applications.</p>
+                    </div>
+
+                    <div class="skills">
+                        <h1>Web Development Languages</h1>
+                        <p>HTML | CSS | JavaScript | jQuery | NPM</p>
+                        <p>..</p>
+                    </div>
+                </div>
+            </div>
+            
+        <section class="projects" id="projects">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Projects</h1>
+                        <p>View my work</p>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-img has-margin-right">
+                            <img src="images/proj1.jpeg">
+                        </div>
+                        <div class="project-desc">
+                            <h3>Bookmark App</h3>
+                            <p>Keep track of all of your favorite websites with this simple booktracking application.</p>  <p>Skills used:  HTML, CSS, JavaScript, jQuery</p>
+                            <a href="https://thinkful-ei-gecko.github.io/JamesL-Bookmark-App/" class="cta">Try it out!</a><br>
+                            <a href="https://github.com/thinkful-ei-gecko/JamesL-Bookmark-App" class="cta">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
         </section>
 
-        <section>
-            Section 3
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact Me</h1>
+                    <p><a class="contact-links email-link" href = "mailto: jameswlee109@gmail.com">My Email Link</a></p>
+                    <p><a class="contact-links github-link" href="https://github.com/xleex23/">GitHub</a></p>
+                    <p><a class="contact-links linked-link" href="https://www.linkedin.com/in/james-lee-ab5051183/">LinkedIn</a></p>
+                </div>
+                <form action="">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="subject">Description: </label>
+                    <textarea id="subject" name="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </section>
 
-        <section>
-            Project 3
-        </section>
-        
-        <section>
-            Section 4
-        </section>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info" class="copyright">
+        <!-- <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div> -->
+        <p>&copy; 2019 James W Lee</p>
+    </footer>
+
+    <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
