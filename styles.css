@@ -64,7 +64,7 @@ li {
 
 .nav-list-element {
   font-family: 'Yellowtail', bold;
-  font-size: 3.3rem;
+  font-size: 4rem;
 }
 
 .nav-list-element:hover,
@@ -164,7 +164,7 @@ section {
 }
 
 .name-header h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   font-family: 'Yellowtail', bold;
   background: #fff1cc;
   -webkit-background-clip: text;
@@ -175,7 +175,7 @@ section {
 
 .name-header h4 {
   color: #fff1cc;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
