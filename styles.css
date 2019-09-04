@@ -338,11 +338,9 @@ p {
   width: 70%;
   margin: 0 auto;
 }
-
 form label {
   font-size: 1.5rem;
 }
-
 input,
 select,
 textarea {
@@ -352,14 +350,12 @@ textarea {
   border: none;
   outline-color: #fff1cc;
 }
-
 input[type="submit"]{
   width: initial;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
   cursor: pointer;
 }
-
 input[type="submit"]:hover {
   background-color: #fff1cc;
 } */
@@ -463,5 +459,3 @@ input[type="submit"]:hover {
   }
   
 }
-  
-  
