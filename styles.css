@@ -441,6 +441,17 @@ input[type="submit"]:hover {
     margin: 10rem 0 5rem 0;
   }
 
+  .project-item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .has-margin-right {
+    margin-right: 5rem;
+  }
+
   .project-img {
     width: 50%;
     height: 50%;
