@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -28,7 +29,7 @@
         </nav>
         <div class="name-header">
             <h1>James W Lee</h1>
-            <h4>Full Stack Web Developer</h4>
+            <h4>Full Stack Software Developer</h4>
         </div>
     </header>
     <main role="main">
@@ -36,11 +37,11 @@
         <section class="about" id="about">
             <div class="container">
                 <div class="profile-img">
-                    <img src="images/profile.jpeg">
+                    <img src="images/profile.jpeg" alt="profile-pic">
                 </div>
                 <div class="about-details">
                     <div class="about-heading">
-                        <h1>About</h1>
+                        <h2>About</h2>
                         <h5>Myself</h5>
                     </div>
                     <p class="intro">
@@ -52,17 +53,17 @@
                     <div class="social-media">
                         <ul class="nav-list">
                             <li>
-                                <a href="https://www.facebook.com/xleex24" class="icon-link">
+                                <a href="https://www.facebook.com/xleex24" class="icon-link" target="_blank">
                                     <i class="fab fa-facebook-square"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/j1lee27/" class="icon-link">
+                                <a href="https://www.instagram.com/j1lee27/" class="icon-link" target="_blank">
                                         <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="icon-link">
+                                <a href="https://twitter.com/j1lee24" class="icon-link" target="_blank">
                                     <i class="fab fa-twitter-square"></i>
                                 </a>
                             </li>
@@ -75,39 +76,90 @@
         <section class="skillset" id="skillz">
             <div class="container">
                 <div class="section-heading">
-                    <h1>Skills</h1>
+                    <h2>Skills</h2>
                 </div>
                 <div class="my-skills">
                     <div class="skills">
-                        <p>..</p>
-                        <h1>Web Design</h1>
-                        <p>Creating innovative and modern design to web pages and applications.</p>
+                        <h3>Front-End</h3>
+                        <p>HTML5 | CSS3 | JavaScript | React | jQuery | Context | Jest | Enzyme</p>
                     </div>
 
                     <div class="skills">
-                        <h1>Web Development Languages</h1>
-                        <p>HTML | CSS | JavaScript | jQuery | NPM</p>
-                        <p>..</p>
+                        <h3>Back-End</h3>
+                        <p>Node | Express | SQL | PostgreSQL | Knex | Mocha | Chai | Supertest | RESTful API</p>
+                    </div>
+
+                    <div class="skills">
+                        <h3>Additional Resources</h3>
+                        <p>Git | GitHub | NPM | Slack</p>
                     </div>
                 </div>
             </div>
+        </section>
             
         <section class="projects" id="projects">
                 <div class="container">
                     <div class="section-heading">
-                        <h1>Projects</h1>
+                        <h2>Projects</h2>
                         <p>View my work</p>
                     </div>
                     <div class="project-item">
                         <div class="project-img has-margin-right">
-                            <img src="images/proj1.jpeg">
+                            <a href="https://ricorda.now.sh" class="cta" target="_blank">
+                                <img src="images/Ricorda.jpeg" alt="ricorda-screenshot">
+                            </a>
                         </div>
                         <div class="project-desc">
-                            <h3>Bookmark App</h3>
-                            <p>Keep track of all of your favorite websites with this simple bookmarking application.</p>  
-                            <p>Skills used:  HTML, CSS, JavaScript, jQuery</p>
-                            <a href="https://thinkful-ei-gecko.github.io/JamesL-Bookmark-App/" class="cta">Try it out!</a><br>
-                            <a href="https://github.com/thinkful-ei-gecko/JamesL-Bookmark-App" class="cta">GitHub Repo</a>
+                            <h3>Ricorda - Spaced Repetition</h3>
+                            <p>Ricorda is an Italian learning application that utilizes spaced repetition.</p>  
+                            <p>Technologies:  HTML5, CSS3, React, Node, Express, Cypress, PostgreSQL, RESTful API</p>
+                            <a href="https://ricorda.now.sh" class="cta" target="_blank">Try it out!</a><br>
+                            <a href="https://github.com/thinkful-ei-gecko/Yulia-JamesL-Spaced-Repetition-Client" class="cta" target="_blank">GitHub Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-img has-margin-right">
+                            <a href="https://breadcrumbs.now.sh" class="cta" target="_blank">
+                                <img src="images/Breadcrumbs.png" alt="breadcrumbs-screenshot">
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <h3>BreadCrumbs</h3>
+                            <p>BreadCrumbs is a reenvisioned news aggregator that empowers the community to dictate the top news stories.</p>  
+                            <p>Technologies:  HTML5, CSS3, React, Node, Express, PostgreSQL, RESTful API</p>
+                            <a href="https://breadcrumbs.now.sh" class="cta" target="_blank">Try it out!</a><br>
+                            <a href="https://github.com/thinkful-ei-gecko/BreadCrumbs-Client" class="cta" target="_blank">GitHub Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-img has-margin-right">
+                            <a href="https://trippie-planner.now.sh" class="cta" target="_blank">
+                                <img src="images/Trippie-home.png" alt="trippie-screenshot">
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <h3>Trippie Planner</h3>
+                            <p>Trippie is a simple, easy-to-use travel planning application that allows users to keep track of all upcoming trips and plans</p>  
+                            <p>Technologies:  HTML5, CSS3, React, Node, Express, PostgreSQL, RESTful API</p>
+                            <a href="https://trippie-planner.now.sh" class="cta" target="_blank">Try it out!</a><br>
+                            <a href="https://github.com/thinkful-ei-gecko/JamesL-Trippie-Client" class="cta" target="_blank">GitHub Repo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-img has-margin-right">
+                            <a href="https://thinkful-ei-gecko.github.io/quizapp-JamesL-Laura/" class="cta" target="_blank">
+                                <img src="images/MN-trivia.png" alt="trivia-screenshot">
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <h3>Minnesota Trivia</h3>
+                            <p>Trivia application that tests your knowledge of fun trivia questions about the state of Minnesota.</p>  
+                            <p>Technologies:  HTML5, CSS3, JavaScript, jQuery</p>
+                            <a href="https://thinkful-ei-gecko.github.io/quizapp-JamesL-Laura/" class="cta" target="_blank">Try it out!</a><br>
+                            <a href="https://github.com/thinkful-ei-gecko/quizapp-JamesL-Laura" class="cta" target="_blank">GitHub Repo</a>
                         </div>
                     </div>
                 </div>
@@ -116,28 +168,16 @@
         <section class="contact" id="contact">
             <div class="container">
                 <div class="section-heading">
-                    <h1>Contact Me</h1>
-                    <p><a class="contact-links email-link" href = "mailto: jameswlee109@gmail.com">My Email Link</a></p>
-                    <p><a class="contact-links github-link" href="https://github.com/xleex23/">GitHub</a></p>
-                    <p><a class="contact-links linked-link" href="https://www.linkedin.com/in/james-lee-ab5051183/">LinkedIn</a></p>
+                    <h2>Contact Me</h2>
+                    <p><a class="contact-links email-link" href = "mailto:jameswlee109@gmail.com" target="_blank">My Email Link</a></p>
+                    <p><a class="contact-links github-link" href="https://github.com/xleex23/" target="_blank">GitHub</a></p>
+                    <p><a class="contact-links linked-link" href="https://www.linkedin.com/in/james-lee-ab5051183/" target="_blank">LinkedIn</a></p>
                 </div>
-                <!-- <form action="">
-                    <label for="name">Name: </label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <label for="subject">Description: </label>
-                    <textarea id="subject" name="subject" cols="10" rows="10"></textarea>
-                    <input type="submit" value="Submit">
-                </form> -->
             </div>
         </section>
 
     </main>
     <footer role="content-info" class="copyright">
-        <!-- <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-        </div> -->
         <p>&copy; 2019 James W Lee</p>
     </footer>
 
